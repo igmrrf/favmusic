@@ -30,6 +30,7 @@ USAGE
 <!-- commands -->
 * [`favmusic hello`](#favmusic-hello)
 * [`favmusic help [COMMAND]`](#favmusic-help-command)
+* [`favmusic show`](#favmusic-show)
 
 ## `favmusic hello`
 
@@ -65,4 +66,22 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.0/src/commands/help.ts)_
+
+## `favmusic show`
+
+Describe the command here
+
+```
+USAGE
+  $ favmusic show
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/show.js](https://github.com/igmrrf/favmusic/blob/v0.0.1/src/commands/show.js)_
 <!-- commandsstop -->
